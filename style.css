@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* 200, 400, 500 */
+    height: auto;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    height: auto;
+    max-width: 1200px;
+    margin: 50px auto 50px auto;
+}
+
+.container table {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.container th {
+    font-size: 19px;
+    color: white;
+    padding: 20px 0px 20px 0px;
+    background-color: rgb(133, 159, 247);
+}
+
+.container td {
+    text-align: center;
+    font-size: 17px;
+    background-color: rgb(236, 240, 255);
+}
+
+.container td img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 100%;
+}
